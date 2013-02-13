@@ -1,4 +1,4 @@
-class SaleNook
+class SaleNook #nook class
 	attr_reader :vendor_num, :ean, :title, :author, :publisher, :format, :order_type, :egift_date, :sale_crcy, :dlp_sale_crcy, :consumer_unit_price, :units_sold, :units_returned, :royalty, :unit_cost_sale_crcy, :total_cost_sale_crcy, :payment_crcy, :total_cost, :item_cost, :crcy_of_list_price, :invoice_date, :country, :store, :import_date 	
 	def initialize(table_row)
 		@vendor_num				= table_row["Vendor Number"]

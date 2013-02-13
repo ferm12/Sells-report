@@ -1,4 +1,4 @@
-class SaleKindle
+class SaleKindle #salekindle class
   attr_reader :title, :asin, :transac_type, :units_sold, :units_refunded, :units_sold_borrowed, :perc_of_borrows, :avg_list_price, :avg_offer_price, :avg_file_size_MB, :avg_delivery_cost, :royalty, :crcy, :start_date, :end_date, :country, :store, :import_date
 
   def initialize(table_row)

@@ -1,6 +1,6 @@
 require "amalgalite"
 
-class DBhandler  
+class DBhandler #dbhandler class  
 	attr_reader :db
 	
 	def initialize

@@ -1,4 +1,4 @@
-class Sale
+class Sale #sale class
 	attr_reader :isbn, :asin, :sale_date, :qty, :selling_price, :proceed, :total_proceed, :crcy, :country, :store, :transac_type, :avg_offer_price, :import_date
 	def initialize(sale, store)
 	  if store == "nook"

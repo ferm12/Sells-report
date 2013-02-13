@@ -1,4 +1,4 @@
-class SaleItunes
+class SaleItunes # saleItunes
 	attr_reader :start_date, :end_date, :upc, :isrc_isbn, :vendor_id, :qty, :partner_shr, :extended_partner_shr, :partner_shr_crcy, :sales_or_return, :apple_id, :author, :title, :publisher, :grid, :product_type_id, :isa_other_id, :country_of_sale, :pre_order_flag, :promo_code, :customer_price, :customer_crcy, :store, :import_date
 	def initialize(table_row)
 		@start_date= table_row["Start Date"]

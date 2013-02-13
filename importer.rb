@@ -4,7 +4,7 @@ require_relative 'sale_itunes'
 require_relative 'sale_kindle'
 require_relative 'db_handler'
 require_relative 'sale'
-
+#importer module
 module Importer	#Imports the table(csv file)
   def self.import_nook(file, db_handler)
     CSV.foreach(file, :headers => true) do |table_row|

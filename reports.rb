@@ -1,6 +1,6 @@
 require "amalgalite"
 
-class Report
+class Report #report class
 	def initialize(table_to_analyze, db_handler)
 		@table_to_analyze = table_to_analyze
 		@db = db_handler.db
